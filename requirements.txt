@@ -1,0 +1,23 @@
+# Lekhmala Studio — Reflex port
+# Install with:  pip install -r requirements.txt
+
+reflex>=0.6.0
+
+# Image processing (same as original)
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+rembg>=2.0.50
+gfpgan>=1.3.8
+
+# GFPGAN deps
+basicsr>=1.4.2
+facexlib>=0.3.0
+realesrgan>=0.3.0
+
+# PyTorch — install the correct variant for your hardware
+# CPU:   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# CUDA:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+torchvision>=0.15.0
+
+numpy>=1.24.0
